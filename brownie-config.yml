@@ -18,7 +18,11 @@ compiler:
     remappings:
       - "@yearnvaults=yearn/yearn-vaults@0.4.3"
       - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.1.0"
+      - "@uniswap=Uniswap/v3-core@1.0.0"
 
 reports:
+  exclude_paths:
+    - contracts/test/Token.sol
+
   exclude_contracts:
     - SafeMath
